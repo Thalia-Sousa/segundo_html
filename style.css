@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0
+    ;
+}
+header{
+   text-align: center;
+   background-color: bisque;
+}
+main, section, footer {
+    background-color: blanchedalmond;
+}
+h1, h2{
+    text-align: center;
+}
+h1{
+    color: darkblue;
+}
+h2{
+    color: blue;
+}
+a:link{
+    text-decoration: none;
+}
