@@ -1,8 +1,14 @@
 *{
     margin: 0;
-    padding: 0;
     border: 0
     ;
+}
+h1, h2, p{
+    padding-top: 20px;
+    padding-right: 8px;
+    padding-bottom: 20px;
+    padding-left: 8px;
+
 }
 header{
    text-align: center;
@@ -13,6 +19,7 @@ main, section, footer {
 }
 h1, h2{
     text-align: center;
+    flex-wrap: nowrap;
 }
 h1{
     color: darkblue;
@@ -22,4 +29,7 @@ h2{
 }
 a:link{
     text-decoration: none;
+}
+section{
+    text-align: center;
 }
